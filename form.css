@@ -1,0 +1,47 @@
+body{
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    color: white;
+ 
+}
+.content{
+    width: 500px;
+    height: 500px;
+    text-align: left;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+  
+}
+#Name{
+    border: 2px solid lightblue;
+    width: 72%;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    padding: 5px;
+    margin-left: 5%;
+}
+#email{
+    border: 2px solid green;
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+#age{
+    border: 2px solid orange;;
+    width: 70%;
+    height: 30px;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 5%;
+ 
+}
+.details{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
